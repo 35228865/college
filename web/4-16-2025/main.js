@@ -4,9 +4,10 @@ let trace1 = {
     x: [1, 2, 3, 4, 5],
     y: [1, 2, 4, 8, 16]
 };
+
 for (let i = 0; i < set1.length; i++) {
-    trace1.x.push(set[i][0]);
-    trace1.y.push(set[i][1]);
+    trace1.x.push(set1[i][0]);
+    trace1.y.push(set1[i][1]);
 }
 let data =[trace1];
 let layout = {
